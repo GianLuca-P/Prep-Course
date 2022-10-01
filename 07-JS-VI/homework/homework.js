@@ -58,9 +58,7 @@ function filter(array) {
   //Devolver un nuevo array con los elementos que cumplen la condición
   //Tu código:
   var filtro = array.filter(function(array){
-    if(array.charAt(0) === 'a'){
-      return array;
-    }
+    return array[0] === 'a';
   });
   return filtro;
 }
